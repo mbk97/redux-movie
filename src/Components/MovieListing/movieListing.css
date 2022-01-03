@@ -1,0 +1,46 @@
+.movie-list,.show-list{
+    margin: 20px 0;
+}
+
+.movie-list, .show-list h2{
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+ 
+.movie-error{
+   margin: 0 auto;
+}
+
+.error-img{
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+
+.loading-img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    margin-top: 2rem;
+
+}
+
+@media screen and (max-width:600px){
+    .loading-img{
+        width: 200px;
+        height: 200px;
+        margin-top: 2rem;
+    }
+}
